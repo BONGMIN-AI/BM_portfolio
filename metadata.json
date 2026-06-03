@@ -1,0 +1,6 @@
+{
+  "name": "Bomin Kim Portfolio",
+  "description": "AI & Physical Robot Integration - Mechatronics Portfolio of Bomin Kim",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
