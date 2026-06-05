@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Maximize2, X, Image as ImageIcon } from 'lucide-react';
 
-const yoloPreprocessNb = '/src/assets/images/yolo_preprocess_nb.png';
-const yoloMetricsGraphs = '/src/assets/images/yolo_metrics_graphs.png';
-const yoloColabLogs = '/src/assets/images/yolo_colab_logs.png';
-const yoloDetectionResult = '/src/assets/images/yolo_detection_result.png';
+const yoloPreprocessNb = '/assets/images/yolo_preprocess_nb.png';
+const yoloMetricsGraphs = '/assets/images/yolo_metrics_graphs.png';
+const yoloColabLogs = '/assets/images/yolo_colab_logs.png';
+const yoloDetectionResult = '/assets/images/yolo_detection_result.png';
 
 interface YoloDashboardProps {
   language?: 'ko' | 'en';

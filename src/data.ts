@@ -2,7 +2,7 @@ import { Project, SkillGroup, EducationItem, PresentationItem } from './types';
 
 export const PERSONAL_INFO = {
   name: "김보민 (Bomin Kim)",
-  profileImage: "/src/assets/images/robotics_profile_1780476013400.png",
+  profileImage: "/assets/images/robotics_profile_1780476013400.png",
   title: "AI & Physical Robot Integration",
   quote: "소프트웨어의 지능(AI)을 하드웨어(Physical Robot)에 완벽하게 녹여내는 메카트로닉스 엔지니어",
   description: "안녕하세요! 한국폴리텍대학 청주캠퍼스 스마트메카트로닉스과(AI 딥러닝 전공)에서 공부하고 있는 김보민입니다. 데이터를 학습하는 인공지능 인프라부터, 이를 바탕으로 현실 세계에서 움직이는 로봇 및 임베디드 시스템 제어까지 전 과정을 깊이 있게 탐구하고 있습니다.",
@@ -63,7 +63,7 @@ export const PROJECTS_DATA: Project[] = [
       "자체 가공 코드로 이루어진 Python 전용 추론 CLI 프로그램을 기동하여 'Pcup-detect-ver-2' 최종 가중치 파일을 통한 오프라인 환경 내 97% 이상의 종이컵 객체 바운딩 박스 실시간 탐지 확인 완료."
     ],
     techStack: ["Python", "YOLOv8", "Google Colab", "Roboflow", "Pytorch"],
-    image: "/src/assets/images/project_yolo_1780476034757.png",
+    image: "/assets/images/project_yolo_1780476034757.png",
     number: "01",
     simulation: {
       type: "yolo",
@@ -87,7 +87,7 @@ export const PROJECTS_DATA: Project[] = [
       "패턴 제어(Pattern Control) 방식을 결합하여 90도 직각 교차로 및 S자 커브 주행 시 라인을 흔들림 없이 복합 추적 제어."
     ],
     techStack: ["Arduino", "C/C++", "Interrupt Control", "6-Ch IR Sensor Array", "Pattern Algorithm", "Continuous Calibration"],
-    image: "/src/assets/images/project_linetracer_1780476056047.png",
+    image: "/assets/images/project_linetracer_1780476056047.png",
     number: "02",
     simulation: {
       type: "pid",
@@ -112,7 +112,7 @@ export const PROJECTS_DATA: Project[] = [
       "순수 하드웨어 스위칭 소자의 바운싱 오승인 억제 처리를 구현함으로써 PLC 이전 단계의 본질적인 전장 설계 기술 확보."
     ],
     techStack: ["Relay Circuit Board", "Sequence Control", "KS/IEC Standards", "Hardware Troubleshooting"],
-    image: "/src/assets/images/project_sequence_1780476078083.png",
+    image: "/assets/images/project_sequence_1780476078083.png",
     number: "03",
     simulation: {
       type: "sequence",
@@ -136,7 +136,7 @@ export const PROJECTS_DATA: Project[] = [
       "시간 만료 시 피에조 부저 유니크 플로우 트리거를 코드로 통합 설계하여 하드웨어 제어 논리 사이클 완결."
     ],
     techStack: ["Arduino UNO", "C/C++", "I2C LCD 1602", "Wokwi Prototyping", "State Machine Design"],
-    image: "/src/assets/images/project_pomodoro_1780476099949.png",
+    image: "/assets/images/project_pomodoro_1780476099949.png",
     number: "04",
     simulation: {
       type: "pomodoro",
